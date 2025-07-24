@@ -138,7 +138,9 @@ function App() {
             totalCost={getTotalCost()}
             totalItems={getTotalItems()}
             onContinueShopping={() => setCurrentPage("products")}
-            onCheckout={() => alert("Functionality to be added for future reference")}
+            onCheckout={() =>
+              alert("Functionality to be added for future reference")
+            }
             cartItemCount={getTotalItems()}
             onNavigateToProducts={() => setCurrentPage("products")}
           />

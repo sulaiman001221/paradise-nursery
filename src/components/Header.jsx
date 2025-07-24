@@ -10,9 +10,7 @@ function Header({
   return (
     <header className="header">
       <div className="header-content">
-        <a href="./LandingPage.jsx" className="header-title-link">
-          <h2 className="header-title">Paradise Nursery</h2>
-        </a>
+        <h2 className="header-title">Paradise Nursery</h2>
         <nav className="header-nav">
           {showProductsNavigation && onNavigateToProducts && (
             <button className="nav-btn" onClick={onNavigateToProducts}>
