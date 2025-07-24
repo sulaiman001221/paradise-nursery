@@ -9,6 +9,7 @@ function ShoppingCartPage({
   totalCost,
   totalItems,
   onContinueShopping,
+  onCheckout,
   cartItemCount,
   onNavigateToProducts,
 }) {
@@ -99,7 +100,9 @@ function ShoppingCartPage({
               >
                 Continue Shopping
               </button>
-              <button className="checkout-btn">Checkout</button>
+              <button className="checkout-btn" onClick={onCheckout}>
+                Checkout
+              </button>
             </div>
           </>
         )}

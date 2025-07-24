@@ -10,7 +10,7 @@ function Header({
   return (
     <header className="header">
       <div className="header-content">
-        <a href="/" className="header-title-link">
+        <a href="./LandingPage.jsx" className="header-title-link">
           <h2 className="header-title">Paradise Nursery</h2>
         </a>
         <nav className="header-nav">
